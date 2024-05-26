@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif; /*Definir fonte do site */
+}
+body{
+    background-image: linear-gradient(to right,  #042940,#005C53 ); /*Efeito degradê no fundo */
+}
+main{
+    background-color: #D6D58E; /*Cor do plano de fundo da main */
+    width: 600px; /* largura */
+    padding: 10px; /*acolchoamento. deixar borda mais  */
+    margin: auto; /* centraliza o conteúdo */
+    border-radius: 10px; /*deixar a borda suave */
+    box-shadow: 5px 5px 3px #031d2e67;} /*criar uma sombra, primeiro parâmetro é o quanto vai andar para o lado, o segundo é para baixo e o terceiro é o quanto ele ira se espalhar e o quarto sera sua cor e transparência  */ /*Quando for trabalhar com monocromia é bom utilizar a cor mais escura e arrasta-la para baixo(deixar ela mais escura ainda) assim o efeito de sombra fica melhor*/
+
+h1{
+ color: #9FC131 ; /*Botando cor */
+ text-align: center; /*Alinhar o texto para o centro */
+ text-shadow: 1px 1px 0px #6c832288; /*Fazer sombreamento no texto */
+}
+
+h2{
+ color: #DBF227; /*Botando cor */
+ text-align: left; /*Alinha o texto para a esquerda*/
+}
+
+p {
+    text-align: justify; /*Texto organizado*/
+}

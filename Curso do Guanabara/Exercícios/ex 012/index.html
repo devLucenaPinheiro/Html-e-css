@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo esta hospedado no meu próprio servidor.</p>
+    
+    <video width="700" poster="imagens/capa-peixes.jpg" controls loop>
+    <source src="midias/meu-video1.mp4" type="video/mp4">
+    <source src="midias/Meu-Video.webm" type="video/webm">
+    <source src="midias/meu-video.m4v" type="video/m4v">
+    <p>Seu navegador não tem compatibilidade com reprodução de vídeos. </p>''
+    </video>
+
+    <strong>
+        <p>Para fazer com que o vídeo apareça aqui usamos a tag &lt;video&gt;, dentro da tag vídeo podemos usar os parâmetros de width(largura), poster para thumbnail(foto de capa), controls para dar controles ao vídeo(controle de volume e segundos do vídeo) e loop para deixar o vídeo repetindo, utilizamos tambem a tag &lt;source&gt; com parâmetro src= para indicar a fonte local do vídeo, e depois utilizamos type para indicar qual o formato do vídeo(mp4,webm e m4v) </p>
+    </strong>
+    <h1>Inserindo vídeos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xzautbFzunI?si=YJuDnwdPEQCgKMnm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>

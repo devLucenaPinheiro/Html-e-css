@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Designbolts-Free-Valentine-Heart-Heart.32 (1).ico" type="image/x-icon">
+    <title>Formatação de Textos</title>
+    </style>
+</head>
+<body>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase temos um <b>termo em negrito</b> usando a tag &lt;b&gt; (não semântica). </p>
+    <p>Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag &lt;strong&gt;(semântica).</p>
+    <h2>Itálico / ênfase</h2>
+    <p>Nesta frase temos um <i>termo em itálico</i> usando a tag &lt;i&gt; (não semantica). </p>
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag &lt;em&gt;(semântica).</p>
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também <mark>um texto marcado</mark> usando a tag &lt;mark&gt;</p>
+    <p>E no outro parágrafo, temos <mark>outro texto marcado</mark> no final. </p>
+    <h2>Texto grandes e pequenos</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo. usando as tags &lt;big&gt; e &lt;small&gt; (A tag big esta obsoleta)</p>
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado. usando a tag &lt;del&gt;</p>
+    <h2>texto inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois. usando &lt;ins&gt;</p>
+    <p>Existe também o <u>sublinhado</u> com a tag &lt;u&gt; (não semântica).</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3 usando a tag &lt;sup&gt;</p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O usando a tag &lt;sub&gt;</p>
+    <h2>Texto de endereço</h2>
+    <p>Eu moro na <address>Rua estrada adhemar bebiano 4800</address></p> Usada a tag&lt;address&gt;
+    <hr>
+    <h1>Outras formatações</h1>
+    <hr>
+    <h2>Código-fonte / Pré-formatação</h2>
+    <p>O comando <code>document.getElementById("teste")</code> é escrito em linguagem JavaScript. (Foi usada a tag &lt;code&gt; para fazer as letras ficarem monoespaçadas.)</p>
+        <pre>
+            <code>
+    num = int(input('digite um número'))
+    if num % 2 == 0:
+        print(f'o numero {num} é PAR')
+    else
+        print(f'o numero {num} é IMPAR')
+    print('Fim do programa')
+            </code>
+        </pre>
+     <p>(Foram usadas as tags &lt;code&gt; para fazer as letras ficarem monoespaçadas e &lt;pre&gt; para respeitar os espaçamentos e dar a cara de um código em python com suas indentações.)</p>
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q> (quando for uma citação usar a tag &lt;q&gt;)</p>
+    <h2>Citações completas</h2>
+    <p>Segundo Denilson Bonatti, em seu livro desenvolvimento de jogos em HTML5</p>
+    <blockquote cite="https://www.google.com.br/books/edition/Desenvolvimento_de_Jogos_em_HTML5/LZ1QBAAAQBAJ?hl=pt-BR&gbpv=1&dq=html+para+leigos&printsec=frontcover"> Para a criação e edição dos códigos HTML5/CSS3/JavaScript não é necessário instalar nenhum aplicativo específico-pode-se até utilizar o bloco de notas do Windows'
+    </blockquote> (Foi utilizado a tag &lt;blockquote&gt;para dar o aspecto de uma citação maior)
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p> (Foi utilizada a tag &lt;abbr&gt; para quando passar o mouse em cima de uma abreviação mostrar o seu significado por extenso)
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p> (Foi utilizada a tag &lt;bdo&gt; para inverter um texto e usando dir="rtl" para indicar direção right to left (direita para esquerda))
+    <p style="text-align: right;"><a href="index.html" target="_self" rel="prev">Voltar para o index principal!</a></p>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.box-model-geral{
+    width: 400px;
+    height: 200px;
+    padding: 25px 35px 25px 35px;
+    border: 7px dotted blue;
+    margin: 20px;
+    border-radius: 20px;
+    outline: 7px solid red;
+    background-color: lightblue;
+}
+
+#texto{
+    background-color: #444;
+    color: #FFF;
+}
